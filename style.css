@@ -157,9 +157,14 @@ body {
 	}
 }
 @media (max-width: 600px) {
+	body {
+		flex-direction: column;
+		padding: 1rem;
+	}
 	.form-container {
 		padding: 1rem;
-		max-width: 100%;
+		width: 100%;
+		box-shadow: none;
 	}
 	.form-group {
 		flex-direction: column;
@@ -167,6 +172,7 @@ body {
 	}
 	.form-group label {
 		margin-bottom: 0.5rem;
+		font-size: 0.875rem;
 	}
 	.form-group input,
 	.form-group button {
@@ -181,5 +187,16 @@ body {
 	}
 	#results {
 		padding: 1rem;
+		width: 100%;
+		margin-top: 1rem;
+	}
+	.customize-link {
+		font-size: 0.8125rem;
+	}
+	.small-text {
+		font-size: 0.75rem;
+	}
+	.right-align {
+		text-align: left;
 	}
 }
